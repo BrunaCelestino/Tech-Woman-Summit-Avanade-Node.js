@@ -5,7 +5,7 @@ for (i = 1; i < numTables; i++) {
   const chairs = Math.floor(Math.random() * 6) + 2; 
   const name = `Table ${i}`;
 
-  const location = ["Curitiba", "Recife", "São Paulo", "Belo Horizonte", "Guarulhos"][Math.floor(Math.random() * 3)]; 
+  const location = ["Curitiba", "Recife", "São Paulo", "Belo Horizonte", "Guarulhos"][Math.floor(Math.random() * 5)]; 
   fakeTables.push({
     name: name,
     capacity: chairs,
